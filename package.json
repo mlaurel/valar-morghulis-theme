@@ -1,21 +1,30 @@
 {
-    "name": "valar-morghulis-theme",
-    "displayName": "valar morghulis",
-    "description": "Dark theme with GOT vibe",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.46.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Theme for Valar Morghulis",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Theme for Valar Morghulis-color-theme.json"
-            }
-        ]
-    }
+  "name": "valar-morghulis-theme",
+  "displayName": "valar morghulis",
+  "description": "Dark theme with GOT vibe",
+  "publisher": "mlaurel",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "icon": "icons/valar-morghulis-theme-icon.png",
+  "author": {
+    "name": "Mike Laurel"
+  },
+  "repository": {
+    "url": "https://github.com/mlaurel/valar-morghulis-theme.git",
+    "type": "git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Theme for Valar Morghulis",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Theme for Valar Morghulis-color-theme.json"
+      }
+    ]
+  }
 }
